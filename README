@@ -1,0 +1,16 @@
+A simple tool for generating random passwords suitable for Oracle (e.g. not starting with a number).
+
+Use ./build.sh to build, then ./mkpasswd. 
+
+$ ./mkpasswd --help
+mkpasswd
+  -l NUMBER    --length=NUMBER      Length in chars
+  -d NUMBER    --digits=NUMBER      Number of digits
+  -c NUMBER    --lower=NUMBER       Number of lowercase chars
+  -C NUMBER    --upper=NUMBER       Number of uppercase chars
+  -s NUMBER    --upper=NUMBER       Number of special chars
+  -u USERNAME  --username=USERNAME  Username to set password
+  -v           --version            Print version
+  -h           --help               Show help
+
+-- EOF
