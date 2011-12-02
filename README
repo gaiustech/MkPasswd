@@ -1,6 +1,6 @@
-A simple tool for generating random passwords suitable for Oracle (e.g. not starting with a number).
+A simple tool for generating random passwords suitable for Oracle (e.g. not starting with a number). Requires package monads-fd and random-shuffle from Cabal.
 
-Use ./build.sh to build, then ./mkpasswd. 
+Use ./build.sh to build, then ./mkpasswd. The defaults (run with no args) should be suitable for everyday use.
 
 $ ./mkpasswd --help
 mkpasswd
@@ -13,6 +13,6 @@ mkpasswd
   -v           --version            Print version
   -h           --help               Show help
 
-Why not Cabal? I couldn't figure out how to get the options in that make the resulting binary work correctly on both 32-bit Debian and 64-bit Red Hat. 
+Why not Cabal to build? I couldn't figure out how to get the options in that make the resulting binary work correctly on both 32-bit Debian and 64-bit Red Hat. 
 
 -- EOF
